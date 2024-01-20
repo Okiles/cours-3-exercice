@@ -14,7 +14,7 @@ Ce projet contient une classe `Calculator.php` qui permet de faire des opératio
 Il suffit de lancer l'installation des packages via composer :
 
 ```sh
-composer insall
+composer install
 ```
 
 ## Script

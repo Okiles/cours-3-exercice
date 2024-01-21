@@ -10,11 +10,7 @@ describe('Counter Store', () => {
     setActivePinia(createPinia())
   })
 
-  it('increments', () => {
+  it('increments', () => {})
 
-  })
-
-  it('decrements', () => {
-
-  })
+  it('decrements', () => {})
 })

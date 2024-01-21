@@ -18,14 +18,8 @@ describe('Header', () => {
     expect(wrapper.text()).toContain('Demo')
     expect(wrapper.text()).toContain('Home')
   })
-  describe('Navigation', ()=> {
-    it('navigate to Demo', async () =>
-    {
-
-    })
-    it ('navigate to Home', async () =>
-    {
-
-    })
+  describe('Navigation', () => {
+    it('navigate to Demo', async () => {})
+    it('navigate to Home', async () => {})
   })
 })

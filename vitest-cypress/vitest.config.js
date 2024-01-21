@@ -12,7 +12,7 @@ export default mergeConfig(
       coverage: {
         provider: 'istanbul', // or 'v8'
         reporter: ['html']
-      },
+      }
     }
   })
 )

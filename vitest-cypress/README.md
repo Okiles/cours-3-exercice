@@ -12,43 +12,43 @@ Il y a deux page pour ce projet :
 ## Installation
 
 ```sh
-npm install
+docker compose run --rm node npm install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+docker compose run --rm node npm run dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+docker compose run --rm node npm run build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
-npm run test
+docker compose run --rm node npm run test
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/) and [Istanbul](https://istanbul.js.org/) for coverage
 
 ```sh
-npm run test:coverage
+docker compose run --rm node npm run test:coverage
 ```
 
 ### Run Unit Tests with [Vitest UI](https://vitest.dev/guide/ui.html)
 
 ```sh
-npm run test:ui
+docker compose run --rm node npm run test:ui
 ```
 
 ### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
 ```sh
-npm run test:e2e:dev
+docker compose run --rm node npm run test:e2e:dev
 ```
 
 This runs the end-to-end tests against the Vite development server.
@@ -57,20 +57,20 @@ It is much faster than the production build.
 But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
 
 ```sh
-npm run build
-npm run test:e2e
+docker compose run --rm node npm run build
+docker compose run --rm node npm run test:e2e
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+docker compose run --rm node npm run lint
 ```
 
 ### Format with [Prettier](https://prettier.io/)
 
 ```sh
-npm run format
+docker compose run --rm node npm run format
 ```
 
 ## Structure du projet
@@ -101,8 +101,8 @@ npm run format
 
 3. ### Test du Store
 
-    - Ecrire les tests pour vérifier que les methodes du store sont correct
+   - Ecrire les tests pour vérifier que les methodes du store sont corrects
 
 4. ### Test End-To-End Cypress
 
-    - Ecrire au moins un sénario End-To-End en utilisant Cypress. Le sénario doit correspondre au comportement probable d'un utilisateur et tester le bon déroulement.
+   - Ecrire au moins un sénario End-To-End en utilisant Cypress. Le sénario doit correspondre au comportement probable d'un utilisateur et tester le bon déroulement.

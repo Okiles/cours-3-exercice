@@ -11,13 +11,23 @@ Ce projet contient une classe `Calculator.php` qui permet de faire des opératio
 
 ## Installation
 
-Il suffit de lancer l'installation des packages via composer :
+### Docker
+
+Vous pouvez utilisez Docker pour faire fonctionner ce projet
+
+```sh
+docker compose up
+```
+
+Sinon il suffit de lancer l'installation des packages via composer :
 
 ```sh
 composer install
 ```
 
 ## Script
+
+Si vous utilisez Docker ces commandes sont à lancer depuis le container ou avec le prefix `docker compose exec php`
 
 ### Run test with [PHPUnit](https://phpunit.de/)
 

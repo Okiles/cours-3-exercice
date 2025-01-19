@@ -23,10 +23,6 @@ docker compose run --rm php composer install
 docker compose run --rm php composer test
 ```
 
-```sh
-docker compose run --rm php composer test
-```
-
 utilise la configuration disponible dans le fichier `phpunit.xml`
 
 ### Run test and coverage

@@ -45,7 +45,7 @@ docker compose run --rm node npm run test:coverage
 docker compose run --rm node npm run test:ui
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+### [DEPERACTED] Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
 ```sh
 docker compose run --rm node npm run test:e2e:dev
@@ -103,6 +103,6 @@ docker compose run --rm node npm run format
 
    - Ecrire les tests pour vérifier que les methodes du store sont corrects
 
-4. ### Test End-To-End Cypress
+4. ### [DEPRECATED] Test End-To-End Cypress
 
    - Ecrire au moins un sénario End-To-End en utilisant Cypress. Le sénario doit correspondre au comportement probable d'un utilisateur et tester le bon déroulement.
